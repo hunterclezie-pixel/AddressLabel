@@ -8,13 +8,13 @@ github url: https://github.com/hunterclezie-pixel/AddressLabel.git
 
 // Todo:
 /*
-[] Text boxes for: First Name, Last Name, Street Address, City, State, Zip
-[] Group all text box fields in a group box
-[] Buttons: Display, Clear, Exit
-[] Properly named controls (e.g., FirstNameTextBox, DisplayButton, etc.)
-[] Display the formatted address in a label when the Display button is clicked
-[] Clear all fields with the Clear button
-[] Exit the application with the Exit button
+[x] Text boxes for: First Name, Last Name, Street Address, City, State, Zip
+[x] Group all text box fields in a group box
+[x] Buttons: Display, Clear, Exit
+[x] Properly named controls (e.g., FirstNameTextBox, DisplayButton, etc.)
+[x] Display the formatted address in a label when the Display button is clicked
+[x] Clear all fields with the Clear button
+[x] Exit the application with the Exit button
 */
 namespace AddressLabel
 {
