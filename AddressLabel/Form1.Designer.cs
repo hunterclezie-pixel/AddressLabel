@@ -66,7 +66,7 @@
             MailInfoGroupBox.Controls.Add(AddressLabel);
             MailInfoGroupBox.Location = new Point(12, 24);
             MailInfoGroupBox.Name = "MailInfoGroupBox";
-            MailInfoGroupBox.Size = new Size(365, 295);
+            MailInfoGroupBox.Size = new Size(365, 367);
             MailInfoGroupBox.TabIndex = 0;
             MailInfoGroupBox.TabStop = false;
             MailInfoGroupBox.Text = "Mail Information";
@@ -74,7 +74,7 @@
             // ZipCodeLabel
             // 
             ZipCodeLabel.AutoSize = true;
-            ZipCodeLabel.Location = new Point(6, 252);
+            ZipCodeLabel.Location = new Point(6, 288);
             ZipCodeLabel.Name = "ZipCodeLabel";
             ZipCodeLabel.Size = new Size(70, 20);
             ZipCodeLabel.TabIndex = 12;
@@ -82,14 +82,14 @@
             // 
             // FirstNameTextBox
             // 
-            FirstNameTextBox.Location = new Point(92, 56);
+            FirstNameTextBox.Location = new Point(6, 46);
             FirstNameTextBox.Name = "FirstNameTextBox";
             FirstNameTextBox.Size = new Size(194, 27);
             FirstNameTextBox.TabIndex = 1;
             // 
             // ZipCodeTextBox
             // 
-            ZipCodeTextBox.Location = new Point(92, 249);
+            ZipCodeTextBox.Location = new Point(6, 311);
             ZipCodeTextBox.Name = "ZipCodeTextBox";
             ZipCodeTextBox.Size = new Size(125, 27);
             ZipCodeTextBox.TabIndex = 11;
@@ -97,7 +97,7 @@
             // FirstNameLabel
             // 
             FirstNameLabel.AutoSize = true;
-            FirstNameLabel.Location = new Point(6, 59);
+            FirstNameLabel.Location = new Point(6, 23);
             FirstNameLabel.Name = "FirstNameLabel";
             FirstNameLabel.Size = new Size(80, 20);
             FirstNameLabel.TabIndex = 2;
@@ -106,7 +106,7 @@
             // StateLabel
             // 
             StateLabel.AutoSize = true;
-            StateLabel.Location = new Point(6, 211);
+            StateLabel.Location = new Point(6, 235);
             StateLabel.Name = "StateLabel";
             StateLabel.Size = new Size(43, 20);
             StateLabel.TabIndex = 10;
@@ -114,7 +114,7 @@
             // 
             // LastNameTextBox
             // 
-            LastNameTextBox.Location = new Point(92, 98);
+            LastNameTextBox.Location = new Point(6, 99);
             LastNameTextBox.Name = "LastNameTextBox";
             LastNameTextBox.Size = new Size(194, 27);
             LastNameTextBox.TabIndex = 3;
@@ -122,7 +122,7 @@
             // LastNameLabel
             // 
             LastNameLabel.AutoSize = true;
-            LastNameLabel.Location = new Point(6, 101);
+            LastNameLabel.Location = new Point(7, 76);
             LastNameLabel.Name = "LastNameLabel";
             LastNameLabel.Size = new Size(79, 20);
             LastNameLabel.TabIndex = 4;
@@ -130,7 +130,7 @@
             // 
             // StateTextBox
             // 
-            StateTextBox.Location = new Point(92, 208);
+            StateTextBox.Location = new Point(6, 258);
             StateTextBox.Name = "StateTextBox";
             StateTextBox.Size = new Size(194, 27);
             StateTextBox.TabIndex = 9;
@@ -138,7 +138,7 @@
             // CityLabel
             // 
             CityLabel.AutoSize = true;
-            CityLabel.Location = new Point(6, 174);
+            CityLabel.Location = new Point(7, 182);
             CityLabel.Name = "CityLabel";
             CityLabel.Size = new Size(34, 20);
             CityLabel.TabIndex = 8;
@@ -146,14 +146,14 @@
             // 
             // AddressTextBox
             // 
-            AddressTextBox.Location = new Point(92, 135);
+            AddressTextBox.Location = new Point(6, 152);
             AddressTextBox.Name = "AddressTextBox";
             AddressTextBox.Size = new Size(194, 27);
             AddressTextBox.TabIndex = 5;
             // 
             // CityTextBox
             // 
-            CityTextBox.Location = new Point(92, 171);
+            CityTextBox.Location = new Point(6, 205);
             CityTextBox.Name = "CityTextBox";
             CityTextBox.Size = new Size(194, 27);
             CityTextBox.TabIndex = 7;
@@ -161,7 +161,7 @@
             // AddressLabel
             // 
             AddressLabel.AutoSize = true;
-            AddressLabel.Location = new Point(6, 138);
+            AddressLabel.Location = new Point(6, 129);
             AddressLabel.Name = "AddressLabel";
             AddressLabel.Size = new Size(62, 20);
             AddressLabel.TabIndex = 6;
@@ -170,7 +170,7 @@
             // 
             // DisplayButton
             // 
-            DisplayButton.Location = new Point(396, 358);
+            DisplayButton.Location = new Point(402, 358);
             DisplayButton.Name = "DisplayButton";
             DisplayButton.Size = new Size(106, 52);
             DisplayButton.TabIndex = 1;
@@ -180,7 +180,7 @@
             // 
             // ClearButton
             // 
-            ClearButton.Location = new Point(539, 358);
+            ClearButton.Location = new Point(536, 358);
             ClearButton.Name = "ClearButton";
             ClearButton.Size = new Size(106, 52);
             ClearButton.TabIndex = 2;
@@ -190,7 +190,7 @@
             // 
             // ExitButton
             // 
-            ExitButton.Location = new Point(682, 359);
+            ExitButton.Location = new Point(676, 358);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(106, 52);
             ExitButton.TabIndex = 3;
@@ -211,6 +211,7 @@
             // 
             // AddressDisplayLabel
             // 
+            AddressDisplayLabel.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             AddressDisplayLabel.Location = new Point(6, 23);
             AddressDisplayLabel.Name = "AddressDisplayLabel";
             AddressDisplayLabel.Size = new Size(380, 302);
