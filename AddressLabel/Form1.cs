@@ -62,9 +62,7 @@ namespace AddressLabel
             AddressDisplayLabel.Text = FirstNameTextBox.Text + 
                 "\n" + LastNameTextBox.Text +
                 "\n" + AddressTextBox.Text + 
-                "\n" + CityTextBox.Text +
-                "\n" + StateTextBox.Text + 
-                "\n" + ZipCodeTextBox.Text;
+                "\n" + CityTextBox.Text + ", " + StateTextBox.Text + ", " + ZipCodeTextBox.Text;
         }
     }
 }
