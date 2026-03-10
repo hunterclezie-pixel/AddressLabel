@@ -1,6 +1,6 @@
 ﻿namespace AddressLabel
 {
-    partial class Form1
+    partial class AddressLabel
     {
         /// <summary>
         ///  Required designer variable.
