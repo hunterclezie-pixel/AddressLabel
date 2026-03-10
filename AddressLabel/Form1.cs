@@ -27,6 +27,7 @@ namespace AddressLabel
 
         private void SetDefaults()
         {
+            // Clear all text boxes and the display label
             FirstNameTextBox.Text = "";
             LastNameTextBox.Text = "";
             AddressTextBox.Text = "";
@@ -39,11 +40,13 @@ namespace AddressLabel
         // Event handler for the Display button click event
         private void ExitButton_Click(object sender, EventArgs e)
         {
+            // Close the application
             this.Close();
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
         {
+            // Clear all text boxes and the display label
             SetDefaults();
         }
 
@@ -59,6 +62,7 @@ namespace AddressLabel
 
         private void DisplayButton_Click(object sender, EventArgs e)
         {
+            // Format the address and display it in the AddressDisplayLabel
             AddressDisplayLabel.Text = FirstNameTextBox.Text + " " 
                 + LastNameTextBox.Text +
                 "\n" + AddressTextBox.Text + 
