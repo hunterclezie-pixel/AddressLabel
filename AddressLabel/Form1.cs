@@ -59,10 +59,12 @@ namespace AddressLabel
 
         private void DisplayButton_Click(object sender, EventArgs e)
         {
-            AddressDisplayLabel.Text = FirstNameTextBox.Text + 
-                "\n" + LastNameTextBox.Text +
+            AddressDisplayLabel.Text = FirstNameTextBox.Text + " " 
+                + LastNameTextBox.Text +
                 "\n" + AddressTextBox.Text + 
-                "\n" + CityTextBox.Text + ", " + StateTextBox.Text + ", " + ZipCodeTextBox.Text;
+                "\n" + CityTextBox.Text + ", " 
+                + StateTextBox.Text + ", " 
+                + ZipCodeTextBox.Text;
         }
     }
 }
