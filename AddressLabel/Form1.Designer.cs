@@ -92,7 +92,7 @@
             ZipCodeTextBox.Location = new Point(6, 311);
             ZipCodeTextBox.Name = "ZipCodeTextBox";
             ZipCodeTextBox.Size = new Size(125, 27);
-            ZipCodeTextBox.TabIndex = 11;
+            ZipCodeTextBox.TabIndex = 6;
             // 
             // FirstNameLabel
             // 
@@ -117,7 +117,7 @@
             LastNameTextBox.Location = new Point(6, 99);
             LastNameTextBox.Name = "LastNameTextBox";
             LastNameTextBox.Size = new Size(194, 27);
-            LastNameTextBox.TabIndex = 3;
+            LastNameTextBox.TabIndex = 2;
             // 
             // LastNameLabel
             // 
@@ -133,7 +133,7 @@
             StateTextBox.Location = new Point(6, 258);
             StateTextBox.Name = "StateTextBox";
             StateTextBox.Size = new Size(194, 27);
-            StateTextBox.TabIndex = 9;
+            StateTextBox.TabIndex = 5;
             // 
             // CityLabel
             // 
@@ -149,14 +149,14 @@
             AddressTextBox.Location = new Point(6, 152);
             AddressTextBox.Name = "AddressTextBox";
             AddressTextBox.Size = new Size(194, 27);
-            AddressTextBox.TabIndex = 5;
+            AddressTextBox.TabIndex = 3;
             // 
             // CityTextBox
             // 
             CityTextBox.Location = new Point(6, 205);
             CityTextBox.Name = "CityTextBox";
             CityTextBox.Size = new Size(194, 27);
-            CityTextBox.TabIndex = 7;
+            CityTextBox.TabIndex = 4;
             // 
             // AddressLabel
             // 
@@ -173,17 +173,17 @@
             DisplayButton.Location = new Point(402, 358);
             DisplayButton.Name = "DisplayButton";
             DisplayButton.Size = new Size(106, 52);
-            DisplayButton.TabIndex = 1;
+            DisplayButton.TabIndex = 7;
             DisplayButton.Text = "Display";
             DisplayButton.UseVisualStyleBackColor = true;
             DisplayButton.Click += DisplayButton_Click;
             // 
             // ClearButton
             // 
-            ClearButton.Location = new Point(536, 358);
+            ClearButton.Location = new Point(537, 358);
             ClearButton.Name = "ClearButton";
             ClearButton.Size = new Size(106, 52);
-            ClearButton.TabIndex = 2;
+            ClearButton.TabIndex = 8;
             ClearButton.Text = "Clear";
             ClearButton.UseVisualStyleBackColor = true;
             ClearButton.Click += ClearButton_Click;
@@ -193,7 +193,7 @@
             ExitButton.Location = new Point(676, 358);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(106, 52);
-            ExitButton.TabIndex = 3;
+            ExitButton.TabIndex = 9;
             ExitButton.Text = "Exit";
             ExitButton.UseVisualStyleBackColor = true;
             ExitButton.Click += ExitButton_Click;
