@@ -50,16 +50,6 @@ namespace AddressLabel
             SetDefaults();
         }
 
-        private void AdressLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AdressLabelGroup_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void DisplayButton_Click(object sender, EventArgs e)
         {
             // Format the address and display it in the AddressDisplayLabel

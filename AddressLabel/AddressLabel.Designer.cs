@@ -40,7 +40,7 @@
             CityLabel = new Label();
             AddressTextBox = new TextBox();
             CityTextBox = new TextBox();
-            AddressLabel = new Label();
+            StreetAddressLabel = new Label();
             DisplayButton = new Button();
             ClearButton = new Button();
             ExitButton = new Button();
@@ -63,7 +63,7 @@
             MailInfoGroupBox.Controls.Add(CityLabel);
             MailInfoGroupBox.Controls.Add(AddressTextBox);
             MailInfoGroupBox.Controls.Add(CityTextBox);
-            MailInfoGroupBox.Controls.Add(AddressLabel);
+            MailInfoGroupBox.Controls.Add(StreetAddressLabel);
             MailInfoGroupBox.Location = new Point(12, 24);
             MailInfoGroupBox.Name = "MailInfoGroupBox";
             MailInfoGroupBox.Size = new Size(365, 367);
@@ -160,13 +160,12 @@
             // 
             // AddressLabel
             // 
-            AddressLabel.AutoSize = true;
-            AddressLabel.Location = new Point(6, 129);
-            AddressLabel.Name = "AddressLabel";
-            AddressLabel.Size = new Size(62, 20);
-            AddressLabel.TabIndex = 6;
-            AddressLabel.Text = "Address";
-            AddressLabel.Click += AdressLabel_Click;
+            StreetAddressLabel.AutoSize = true;
+            StreetAddressLabel.Location = new Point(6, 129);
+            StreetAddressLabel.Name = "AddressLabel";
+            StreetAddressLabel.Size = new Size(62, 20);
+            StreetAddressLabel.TabIndex = 6;
+            StreetAddressLabel.Text = "Address";
             // 
             // DisplayButton
             // 
@@ -207,7 +206,6 @@
             AdressLabelGroup.TabIndex = 4;
             AdressLabelGroup.TabStop = false;
             AdressLabelGroup.Text = "Address Display Label";
-            AdressLabelGroup.Enter += AdressLabelGroup_Enter;
             // 
             // AddressDisplayLabel
             // 
@@ -242,7 +240,7 @@
         private Label FirstNameLabel;
         private TextBox LastNameTextBox;
         private Label LastNameLabel;
-        private Label AddressLabel;
+        private Label StreetAddressLabel;
         private TextBox AddressTextBox;
         private Label CityLabel;
         private TextBox CityTextBox;
